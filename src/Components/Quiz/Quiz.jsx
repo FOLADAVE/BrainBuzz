@@ -96,11 +96,11 @@ const Quiz = () => {
           </p>
           <div className="result-image">
             {score === data.length ? (
-              <img src="/src/assets/trophy.png" alt="Perfect Score" className="trophy-img" />
+              <img src="/public/trophy.png" alt="Perfect Score" className="trophy-img" />
             ) : score >= data.length / 2 ? (
-              <img src="/src/assets/clap.png" alt="Good Job" />
+              <img src="/public/clap.png" alt="Good Job" />
             ) : (
-              <img src="/src/assets/try-again.png" alt="Try Again" />
+              <img src="/public/try-again.png" alt="Try Again" />
             )}
           </div>
           <p className="result-message">
