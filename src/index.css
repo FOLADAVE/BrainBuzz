@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  font-family: 'Lato', sans-serif;
+
+  /* Animated gradient background */
+  background: linear-gradient(-45deg, #364c35, #415b3f, #4f6f4a, #364c35);
+  background-size: 400% 400%;
+  animation: backgroundAnimation 15s ease infinite;
+}
+
+/* Keyframes for background animation */
+@keyframes backgroundAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
