@@ -14,7 +14,7 @@ const QuizHome = () => {
 
         {/* Main image */}
         <div className="main-image">
-          <img src="/public/brainbuzz.png" alt="BrainBuzz Logo" className="brainbuzz-image" />
+          <img src="/brainbuzz.png" alt="BrainBuzz Logo" className="brainbuzz-image" />
         </div>
 
         {/* CTA button */}
